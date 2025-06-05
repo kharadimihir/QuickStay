@@ -30,6 +30,8 @@ app.use("/api/clerk", clerkWebhooks);
 app.get("/", (req, res) => {
     res.send("App is working very very fine");
 });
+
+app.get("/favicon.ico", (req, res) => res.status(204).end());
 app.use("/api/user", userRouter);
 app.use("/api/hotels", hotelRouter);
 app.use("/api/rooms", roomRouter);
