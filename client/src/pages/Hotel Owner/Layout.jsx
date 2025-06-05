@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 
-import Sidebar from '../../components/HotelOwner/Sidebar'
+import Sidebar from '../../components/Hotel Owner/Sidebar'
 import { Outlet } from 'react-router-dom'
-import Navbar from '../../components/HotelOwner/Navbar'
+import Navbar from '../../components/Hotel Owner/Navbar'
 import { useAppContext } from '../../context/AppContext'
 
 const Layout = () => {

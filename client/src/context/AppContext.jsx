@@ -33,7 +33,7 @@ export const AppProvider = ({ children }) => {
                 // Retry fetching user details after 5 seconds
                 setTimeout(() => {
                    fetchUser(); 
-                }, 15000);
+                }, 5000);
             }
         } catch (error) {
             toast.error(error.message);
